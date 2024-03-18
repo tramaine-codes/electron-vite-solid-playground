@@ -27,8 +27,8 @@
     "@electron-toolkit/eslint-config-prettier": "2.0.0",
     "@electron-toolkit/eslint-config-ts": "1.0.1",
     "@electron-toolkit/tsconfig": "1.0.1",
-    "@types/node": "20.11.26",
-    "electron": "29.1.1",
+    "@types/node": "20.11.28",
+    "electron": "29.1.4",
     "electron-builder": "24.13.3",
     "electron-vite": "2.1.0",
     "eslint": "8.57.0",
@@ -37,6 +37,6 @@
     "solid-js": "1.8.15",
     "typescript": "5.4.2",
     "vite": "5.1.6",
-    "vite-plugin-solid": "2.10.1"
+    "vite-plugin-solid": "2.10.2"
   }
 }
