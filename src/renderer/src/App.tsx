@@ -1,6 +1,6 @@
-import type { Component } from 'solid-js'
-import Versions from './components/Versions'
-import logo from './assets/logo.svg'
+import type { Component } from 'solid-js';
+import Versions from './components/Versions';
+import logo from './assets/logo.svg';
 
 const App: Component = () => {
   return (
@@ -9,7 +9,8 @@ const App: Component = () => {
 
       <img class="hero-logo" src={logo} alt="logo" />
       <h2 class="hero-text">
-        You{"'"}ve successfully created an Electron project with Solid and TypeScript
+        You{"'"}ve successfully created an Electron project with Solid and
+        TypeScript
       </h2>
       <p class="hero-tagline">
         Please try pressing <code>F12</code> to open the devTool
@@ -17,7 +18,11 @@ const App: Component = () => {
 
       <div class="links">
         <div class="link-item">
-          <a target="_blank" href="https://electron-vite.org" rel="noopener noreferrer">
+          <a
+            target="_blank"
+            href="https://electron-vite.org"
+            rel="noopener noreferrer"
+          >
             Documentation
           </a>
         </div>
@@ -49,7 +54,11 @@ const App: Component = () => {
             <h2 class="title">Configuring</h2>
             <p class="detail">
               Config with <span>electron.vite.config.ts</span> and refer to the{' '}
-              <a target="_blank" href="https://electron-vite.org/config" rel="noopener noreferrer">
+              <a
+                target="_blank"
+                href="https://electron-vite.org/config"
+                rel="noopener noreferrer"
+              >
                 config guide
               </a>
               .
@@ -129,7 +138,11 @@ const App: Component = () => {
             <h2 class="title">Packaging</h2>
             <p class="detail">
               Use{' '}
-              <a target="_blank" href="https://www.electron.build" rel="noopener noreferrer">
+              <a
+                target="_blank"
+                href="https://www.electron.build"
+                rel="noopener noreferrer"
+              >
                 electron-builder
               </a>{' '}
               and pre-configured to pack your app.
@@ -138,7 +151,7 @@ const App: Component = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
