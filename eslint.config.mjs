@@ -8,6 +8,7 @@ export default tseslint.config(
       '.chemist',
       'coverage',
       'dist',
+      '.gitignore',
       '.husky',
       'lib',
       'node_modules',
