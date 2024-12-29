@@ -19,9 +19,9 @@
     "prettier": "3.4.2",
     "solid-js": "1.9.3",
     "typescript": "5.7.2",
-    "typescript-eslint": "8.18.1",
+    "typescript-eslint": "8.18.2",
     "vite": "5.4.10",
-    "vite-plugin-solid": "2.10.2"
+    "vite-plugin-solid": "2.11.0"
   },
   "homepage": "https://www.electronjs.org",
   "main": "./out/main/index.js",
